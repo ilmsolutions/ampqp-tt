@@ -1,0 +1,19 @@
+{
+  "name": "amqp-tt",
+  "version": "1.0.0",
+  "description": "AMPQP pub/sub wrapper",
+  "main": "index.js",
+  "type": "commonjs",
+  "files":["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/amqplib": "^0.8.2",
+    "amqplib": "^0.8.0"
+  }
+}
